@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Game Site</a></h1>
+    </header>
+    <section>
+            <script src="rollaball/Build/UnityLoader.js"></script>
+        <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "rollaball/Build/rollaball.json");
+        </script>
+        <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    </section>
+</body>
+</html>
