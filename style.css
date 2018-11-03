@@ -8,3 +8,7 @@ section div{
     display: inline-block;
     text-align:center;
 }
+iframe{
+    overflow:hidden;
+    border:0px;
+}
